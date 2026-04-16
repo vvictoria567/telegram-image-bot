@@ -4,8 +4,9 @@ import requests
 from bs4 import BeautifulSoup
 from io import BytesIO
 import pandas
+import os
 
-bot = telebot.TeleBot('bot_token')
+bot = telebot.TeleBot(os.getenv("BOT_TOKEN"))
 
 # память пользователей
 user_data = {}
