@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from io import BytesIO
 import pandas
 
-bot = telebot.TeleBot('bot token')
+bot = telebot.TeleBot('bot_token')
 
 # память пользователей
 user_data = {}
